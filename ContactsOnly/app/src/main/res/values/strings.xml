@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contacts Only</string>
+    <string name="eyebrow">A QUIETER PHONE</string>
+    <string name="subtitle">Let your contacts through. Decline other incoming numbers.</string>
+    <string name="blocking_switch">Block unsaved callers</string>
+    <string name="setup_button">Set up call screening</string>
+    <string name="setup_done">Call screening selected</string>
+    <string name="setup_unavailable">Screening unavailable</string>
+    <string name="status_setup">One step to get ready</string>
+    <string name="detail_setup">Choose Contacts Only as your call-screening app, then turn on blocking.</string>
+    <string name="status_off">Blocking is off</string>
+    <string name="detail_off">Calls pass through. Turn on the switch when you are ready to test.</string>
+    <string name="status_on">Blocking is on</string>
+    <string name="detail_on">Saved contacts can ring. Other eligible incoming numbers are rejected.</string>
+    <string name="status_paused">Paused for %1$d min</string>
+    <string name="detail_paused">Calls pass through until %1$s. Blocking resumes automatically.</string>
+    <string name="status_unavailable">Not supported on this phone</string>
+    <string name="detail_unavailable">This Android installation does not offer the call-screening role. Blocking cannot be enabled.</string>
+    <string name="pause">Allow everyone for 30 minutes</string>
+    <string name="resume">Resume blocking now</string>
+    <string name="history_title">Recent screening activity</string>
+    <string name="history_note">Last 30 decisions, stored only on this phone. Saved contacts normally do not appear here.</string>
+    <string name="history_empty">No calls screened yet. Try a call from a number that is not saved in Contacts.</string>
+    <string name="clear_history">Clear activity</string>
+    <string name="event_rejected">Rejection requested</string>
+    <string name="event_allowed">Allowed</string>
+    <string name="event_detail">%1$s · %2$s</string>
+    <string name="number_unavailable">Number unavailable</string>
+    <string name="about_title">Know what to expect</string>
+    <string name="about_body">• Hidden or unavailable caller IDs are not supplied to this app. Use your Phone app’s private-number blocking setting if available.\n\n• Couriers, doctors and other people with unsaved numbers will also be rejected. Pause blocking when you expect a call.\n\n• Rejected calls may go to carrier voicemail. WhatsApp and other app calls are outside this app’s scope.\n\n• Caller ID can be spoofed. A saved number is not proof of who is calling.</string>
+    <string name="privacy_title">Private by design</string>
+    <string name="privacy_body">No internet access, ads, account or contact upload. Android checks whether a caller is saved. This app does not request access to your contacts or call log.</string>
+    <string name="test_button">How to test on my phone</string>
+    <string name="test_title">Your first real-call test</string>
+    <string name="test_body">1. Select Contacts Only for call screening and enable blocking.\n\n2. Call this phone from a saved contact: it should ring.\n\n3. Call from a number not saved anywhere in Contacts: it should be rejected without ringing. Check the activity list.\n\n4. Pause blocking, then repeat the unsaved call: it should ring.\n\n5. Disable blocking and check that calls ring normally.\n\nThen test with the screen locked and after restarting your phone and unlocking it once. If you use two SIMs or Wi-Fi calling, repeat for each.\n\nThe activity list records the app’s decision, not independent confirmation of what the network did. Do not call emergency services as a test.</string>
+    <string name="close">Got it</string>
+    <string name="setup_error">Could not open call-screening setup. Try Settings → Apps → Default apps → Caller ID &amp; spam.</string>
+    <string name="diagnostics">%1$s %2$s · Android %3$s\nScreening available: %4$s · App selected: %5$s\nPrototype 0.1.0 · Android 10 or later</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+</resources>

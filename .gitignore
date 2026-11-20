@@ -1,0 +1,27 @@
+# Portable development tools and local caches (not project source)
+/tools/
+/cache/
+
+# Generated release copies; build APKs from ContactsOnly instead
+/Releases/
+
+# IDE and machine-specific configuration
+.idea/
+*.iml
+local.properties
+
+# Gradle and Android build output
+.gradle/
+**/build/
+*.apk
+*.aab
+*.apks
+
+# Signing keys must remain local
+*.jks
+*.keystore
+*.keystore.lock
+
+# Local OS files
+.DS_Store
+Thumbs.db
